@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:visibility="visible"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCategoryList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left|start"
+            android:textColor="@android:color/black"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/llCategory"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/text_view_name"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/edittext_input_background">
+            </EditText>
+
+            <TextView
+                android:id="@+id/tvCategoryAdd"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:layout_weight="0.2"
+                android:background="@drawable/edittext_input_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Add"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

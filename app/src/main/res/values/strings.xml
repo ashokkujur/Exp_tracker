@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">\t Expense Tracker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- nav menu item -->
+    <string name="menu_home">Home</string>
+    <string name="nav_housing">Housing</string>
+    <string name="nav_food_and_grocery">Food and grocery</string>
+    <string name="nav_clothing">Clothing</string>
+    <string name="nav_health_care">Health care</string>
+    <string name="nav_transportation">Transportation</string>
+    <string name="nav_miscellaneous">Miscellaneous</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="add_amount"><font size="18">Amount (₹)</font></string>
+</resources>
